@@ -1,0 +1,15 @@
+// A partir de una conocida cantidad de días que el usuario ingresa a través del teclado, escriba
+//un programa para convertir los días en horas, en minutos y en segundos. Por ejemplo
+	//1 día = 24 horas = 1440 minutos = 86400 segundos
+Algoritmo enc3act4
+	Definir dias,horas,minutos,seg Como Real
+	Escribir "Ingresar dias a convertir "
+	Leer dias
+	horas = dias*24 
+	minutos = horas*60
+	seg = minutos*60
+	Escribir "Restultado final " horas " horas " minutos " minutos " seg " seg "
+	
+	
+	
+FinAlgoritmo
